@@ -17,6 +17,6 @@ filesize(1024, {exponent: 0});        // "1024 B"
 filesize(1024, {output: "exponent"}); // 1
 ```
 ## License
-Copyright (c) 2015 Jason Mulligan
 
-Licensed under the BSD-3 license.
+`Copyright (c) 2015 Jason Mulligan`
+`Licensed under the BSD-3 license.`
