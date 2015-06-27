@@ -18,4 +18,5 @@ filesize(1024, {output: "exponent"}); // 1
 ```
 ## License
 Copyright (c) 2015 Jason Mulligan
+
 Licensed under the BSD-3 license.
