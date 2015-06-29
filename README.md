@@ -1,7 +1,14 @@
 # Size
 Generate a human readable String describing the file size.
 
-## Use function 
+## Quick Start
+You can install fileer:size using Meteor's package management system:
+
+```javascript
+meteor add fileer:size
+```
+
+## Use fn
 
 ```javascript
 filesize(500);                        // "500 B"
@@ -17,7 +24,7 @@ filesize(1024, {exponent: 0});        // "1024 B"
 filesize(1024, {output: "exponent"}); // 1
 ```
 
-## Use Blaze template
+## Use template
 ```html
 {{ filesize 265318 base=10 }}
 ```
