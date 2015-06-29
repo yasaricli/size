@@ -154,3 +154,12 @@
 		global.filesize = filesize;
 	}
 })(typeof global !== "undefined" ? global : window);
+
+
+/*
+ * Template register filesize
+ * {{ filesize <size> <options key=val> }}
+ * */
+Blaze.registerHelper('filesize', function(size, kw) {
+  return filesize(size, kw.hash);
+});
