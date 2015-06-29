@@ -1,7 +1,7 @@
 # Size
 Generate a human readable String describing the file size.
 
-## Examples
+## Use function 
 
 ```javascript
 filesize(500);                        // "500 B"
@@ -16,6 +16,12 @@ filesize(1024);                       // "1 kB"
 filesize(1024, {exponent: 0});        // "1024 B"
 filesize(1024, {output: "exponent"}); // 1
 ```
+
+## Use Blaze template
+```html
+{{ filesize 265318 base=10 }}
+```
+
 ## License
 
 `Copyright (c) 2015 Jason Mulligan`
